@@ -57,7 +57,7 @@ const args = process.argv[2];
         try {
           fs.unlinkSync(dir + '/question.js')
         } catch (error) {
-          // this catch block will not output anuthing
+          // this catch block will not output anything
         }
       }
     }
